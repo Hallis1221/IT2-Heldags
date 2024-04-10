@@ -19,7 +19,7 @@ class DataFramework:
         logging.info(f"Filtering data based on {column_name}.")
         initial_count = len(self.df)
         newdf = self.df[self.df[column_name].apply(condition)]
-        logging.info(f"Filtered down to {len(self.df)} rows.")
+        logging.info(f"Filtered down to {len(newdf)} rows from {initial_count} based on {column_name}.")
         return newdf
 
     def show_statistics(self):
