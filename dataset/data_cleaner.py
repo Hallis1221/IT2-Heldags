@@ -12,6 +12,17 @@ class DataCleaner:
         df.columns = df.columns.str.replace('"', '')
         return df
     
+    def remove_if_missing_any(self, df):
+        """
+        Remove rows with missing values in any columns (as long as atleast one row contains it
+        """
+        logging.info("Removing rows with missing values in any column...")
+        initial_count = len(df)
+        df.dropna(inplace=True)
+        logging.info(f"Removed {initial_count - len(df)} rows with missing values in any column.")
+        return df
+
+    
     def remove_duplicates(self, df):
         logging.info("Removing duplicates...")
         initial_count = len(df)

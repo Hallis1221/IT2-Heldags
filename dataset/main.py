@@ -102,4 +102,11 @@ class DataFramework:
 
         logging.info(f"Closest column title to '{column_name}' is '{sortedColumns[0][0]}' with a similarity score of {sortedColumns[0][1]}.")
         return sortedColumns[0][0]
+    
+    def seperate_based_on_column(self, column_name):
+        """
+        Returns a dictionary of DataFrames, where the keys are unique values in the specified column.
+        """
+        logging.info(f"Separating data based on unique values in column '{column_name}'.")
+        return {key: value for key, value in self.df.groupby(column_name)}
         
