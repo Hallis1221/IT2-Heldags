@@ -86,6 +86,6 @@ class Map:
         """Return the tile at the given pixel coordinates."""
         tile_x = pixel_x // self.tile_width
         tile_y = pixel_y // self.tile_height
-        # Add boundary checks if needed
+
         tile = self.tile_layers[self.current_layer][tile_y][tile_x]
         return tile if tile.collision else None
