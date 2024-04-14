@@ -1,5 +1,6 @@
 import pygame
 from TileWork.debug import DebugManager
+from TileWork.endScreen import EndScreen
 from TileWork.map import Map
 
 class Game:
@@ -15,7 +16,9 @@ class Game:
         self.entities = []
         self.map = None
         self.debug_manager = DebugManager()
+        self.endscreen = EndScreen()
         self.show_debug = False
+        self.show_end_screen = False
 
     def start(self):
         """Start the game using the game loop manager."""
@@ -54,8 +57,10 @@ class Game:
 
             for i, entity in enumerate(self.entities):
                 self.debug_manager.add_info(f'Entity_{i}', f'Pos: {entity.position}')
-
-        if self.map:
+                
+        if self.show_end_screen:
+            self.endscreen.update(dt)
+        elif self.map:
             self.map.update(dt)
         for entity in self.entities:
             entity.update(dt)
@@ -87,6 +92,9 @@ class Game:
         if self.show_debug:
             self.debug_manager.draw(self.screen)
         
+        if self.show_end_screen:
+            self.endscreen.draw(self.screen)
+        
         pygame.display.flip()
 
     def load_map(self, filename):
@@ -94,8 +102,13 @@ class Game:
 
     def add_entity(self, entity):
         """Add an entity to the game."""
+        entity.maxPos = pygame.Vector2((self.map.height*self.map.tile_height, self.map.width*self.map.tile_width))
         self.entities.append(entity)
-
+        
+    def end(self):
+        """End the game. Display a end game message with the option to restart."""
+        self.show_end_screen = True
+        
     def stop(self):
         """Stops the game loop."""
         self.running = False
