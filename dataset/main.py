@@ -3,6 +3,7 @@ import numpy as np
 import logging
 
 from dataset.data_loader import DataLoader
+
 class DataFramework:
     def __init__(self, filepath):
         self.df = DataLoader.load_data(filepath)
