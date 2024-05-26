@@ -87,5 +87,8 @@ class Map:
         tile_x = pixel_x // self.tile_width
         tile_y = pixel_y // self.tile_height
 
-        tile = self.tile_layers[self.current_layer][tile_y][tile_x]
-        return tile if tile.collision else None
+        try:
+            tile = self.tile_layers[self.current_layer][tile_y][tile_x]
+            return tile if tile.collision else None
+        except IndexError:
+            return None

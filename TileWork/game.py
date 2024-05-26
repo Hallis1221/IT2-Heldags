@@ -2,9 +2,10 @@ import pygame
 from TileWork.debug import DebugManager
 from TileWork.endScreen import EndScreen
 from TileWork.map import Map
+import time
 
 class Game:
-    def __init__(self, title="Pygame Tile Framework Game", size=(800, 600), fps=60):
+    def __init__(self, title="Pygame Tile Framework Game", size=(800, 600), fps=60, gameLoop=lambda _:_):
         pygame.init()
         self.title = title
         self.size = size
@@ -14,11 +15,13 @@ class Game:
         self.fps = fps
         self.running = True
         self.entities = []
+        self.text = []
         self.map = None
         self.debug_manager = DebugManager()
         self.endscreen = EndScreen()
-        self.show_debug = False
+        self.show_debug = True
         self.show_end_screen = False
+        self.definedGameloop = gameLoop
 
     def start(self):
         """Start the game using the game loop manager."""
@@ -26,10 +29,14 @@ class Game:
 
     def run_game_loop(self):
         """Handle the main game loop."""
+        startedAt = time.time()
+        
         while self.running:
             dt = self.clock.tick(self.fps)
+            elapsed = time.time()-startedAt
             self.handle_events()
             self.update(dt)
+            self.definedGameloop(elapsed,self)
             self.render()
 
     def handle_events(self):
@@ -52,13 +59,11 @@ class Game:
         """Update all entities and game states."""
         if self.show_debug:
             self.debug_manager.add_info('FPS', f'{self.clock.get_fps():.2f}')
-            self.debug_manager.add_info('Entities', f'{len(self.entities)}')
-            self.debug_manager.add_info('Map', f'{self.map.filename if self.map else "None"}')
-
-            for i, entity in enumerate(self.entities):
-                self.debug_manager.add_info(f'Entity_{i}', f'Pos: {entity.position}')
+            self.debug_manager.add_info('Score', f'{self.score}')
+            self.debug_manager.add_info('Gjenværende Epler', f'{self.maxApples - self.applesSpawned}')
                 
         if self.show_end_screen:
+            self.endscreen.add_info('Score', f'{self.score}')
             self.endscreen.update(dt)
         elif self.map:
             self.map.update(dt)
@@ -70,7 +75,7 @@ class Game:
         """Check and handle collisions for a given entity."""
         for other in self.entities:
             if other != entity and entity.check_collision_with(other):
-                entity.on_collision(other)
+                entity.on_collision(other,self)
         # Example of tile collision checking
         for x in range(entity.rect.left, entity.rect.right, self.map.tile_width):
             for y in range(entity.rect.top, entity.rect.bottom, self.map.tile_height):
@@ -79,7 +84,7 @@ class Game:
                     tile.position.x = x
                     tile.position.y = y
 
-                    entity.on_collision(tile)
+                    entity.on_collision(tile,self)
 
     def render(self):
         """Render all entities and the map."""
@@ -104,6 +109,11 @@ class Game:
         """Add an entity to the game."""
         entity.maxPos = pygame.Vector2((self.map.height*self.map.tile_height, self.map.width*self.map.tile_width))
         self.entities.append(entity)
+
+    def remove_entity(self, entity):
+        """Remove an entity from the game."""
+        self.entities.remove(entity)
+        
         
     def end(self):
         """End the game. Display a end game message with the option to restart."""

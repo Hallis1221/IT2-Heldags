@@ -58,18 +58,16 @@ class BaseEntity:
         return self.rect.colliderect(other.rect)
 
 
-    def on_collision(self, other):
+    def on_collision(self, other,game):
 
         if (not self.collision) or (not other.collision):
             return
         
         if hasattr(other, 'endOnCollision') and other.endOnCollision and not hasattr(self, 'endOnCollision') and not hasattr(self, 'ignoreEndOnCollision'):
-            print(f'{self} collided with {other}. Ending game.')
             if hasattr(self, 'onGameEnd'):
                 self.onGameEnd()
 
             
-        print(f'{self} collided with {other}. Undoing move.')
         if len(self.moves) == 0:
             return
         self.position.x -= self.moves[-1][0] * self.size[0]
