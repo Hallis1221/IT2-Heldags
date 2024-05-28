@@ -26,7 +26,7 @@ class Ghost(BaseEntity):
 
 def main():
     game = Game(title="My Tile-based Game", size=(800, 800), fps=60)
-    game.load_map("level.json")  # Make sure the path matches your map file's location
+    game.load_map("level.json") 
 
     player = Player(color=(255, 0, 0), size=(32, 32))
     player.position = (3*32, 3*32)
