@@ -2,7 +2,11 @@ import pygame
 import random
 
 class BaseEntity:
-    def __init__(self, maxPos=(0,0), image_path=None, color=None, position=(0, 0), size=(32, 32), velocity=(0, 0), collision=True, moveGoalEntity=None, randomMove=False,onGameEnd=None):
+    def __init__(self, maxPos=(0,0), image_path=None, color=None, 
+                 position=(0, 0), 
+                 size=(32, 32), 
+                 velocity=(0, 0)
+                 , collision=True, moveGoalEntity=None, randomMove=False,onGameEnd=None):
         self.position = pygame.Vector2(position)
         self.velocity = pygame.Vector2(velocity)
         self.size = size
@@ -25,11 +29,25 @@ class BaseEntity:
 
             if (self.position.distance_to(self.moveGoal) < 2 and self.randomMove):
                 self.moveGoal = pygame.Vector2(random.randint(0, self.maxPos[0]), random.randint(0, self.maxPos[1])) if self.randomMove else None
+            elif (self.position.distance_to(self.moveGoal) < 2):
+                print("Reached goal")
+                self.moveGoal = None
             else:
                 self.move_towards(self.moveGoal)
 
-        self.position += self.velocity * (dt / 1000.0)  # Convert dt to seconds for movement
-        self.rect.topleft = self.position
+        # Update position based on velocity.
+        if (self.velocity.x != 0):
+            if self.velocity.x < 0:
+                self.move(-1/dt, 0)
+            else:
+                self.move(1/dt, 0)
+        
+        if (self.velocity.y != 0):
+            if self.velocity.y < 0:
+                self.move(0,-1/dt)
+            else:
+                self.move(0,1/dt)
+
 
     def move(self, dx, dy):
         self.moves.append((dx, dy))
@@ -70,10 +88,16 @@ class BaseEntity:
             
         if len(self.moves) == 0:
             return
+        
         self.position.x -= self.moves[-1][0] * self.size[0]
         self.position.y -= self.moves[-1][1] * self.size[1]
         self.rect.topleft = self.position
         self.moves.pop()
+
+        if self.velocity.x != 0:
+            self.velocity.x = -self.velocity.x
+        if self.velocity.y != 0:
+            self.velocity.y = -self.velocity.y
 
         # if moving towards a random goal, change the goal
         if self.randomMove:

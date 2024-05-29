@@ -5,7 +5,7 @@ from TileWork.map import Map
 import time
 
 class Game:
-    def __init__(self, title="Pygame Tile Framework Game", size=(800, 600), fps=60, gameLoop=lambda _:_):
+    def __init__(self, title="Pygame Tile Framework Game", size=(800, 600), fps=60, gameLoop=lambda _,___:___):
         pygame.init()
         self.title = title
         self.size = size
@@ -22,6 +22,7 @@ class Game:
         self.show_debug = True
         self.show_end_screen = False
         self.definedGameloop = gameLoop
+        self.score = 0
 
     def start(self):
         """Start the game using the game loop manager."""
@@ -60,7 +61,6 @@ class Game:
         if self.show_debug:
             self.debug_manager.add_info('FPS', f'{self.clock.get_fps():.2f}')
             self.debug_manager.add_info('Score', f'{self.score}')
-            self.debug_manager.add_info('Gjenværende Epler', f'{self.maxApples - self.applesSpawned}')
                 
         if self.show_end_screen:
             self.endscreen.add_info('Score', f'{self.score}')
@@ -76,7 +76,7 @@ class Game:
         for other in self.entities:
             if other != entity and entity.check_collision_with(other):
                 entity.on_collision(other,self)
-        # Example of tile collision checking
+
         for x in range(entity.rect.left, entity.rect.right, self.map.tile_width):
             for y in range(entity.rect.top, entity.rect.bottom, self.map.tile_height):
                 tile = self.map.get_tile_at(x, y)
