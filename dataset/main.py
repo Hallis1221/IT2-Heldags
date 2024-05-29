@@ -109,4 +109,8 @@ class DataFramework:
         """
         logging.info(f"Separating data based on unique values in column '{column_name}'.")
         return {key: value for key, value in self.df.groupby(column_name)}
+    
+    def get_average(self, column_name):
+        logging.info(f"Calculating the average of '{column_name}'.")
+        return self.df[column_name].mean()
         

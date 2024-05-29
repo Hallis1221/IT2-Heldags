@@ -1,31 +1,28 @@
+from pygame.time import Clock
 import pygame
 import json
-from pygame.time import Clock
+from TileWork.tile import Tile
 
-class Tile:
-    """Represents a single tile on the map."""
-    def __init__(self, tile_type, image=None, color=None, collision=False, name="", position=(0, 0), size=(32, 32)):
-        self.tile_type = tile_type
-        self.image = image
-        self.color = color
-        self.collision = collision
-        self.name = name
-        self.size = size
-        self.position = pygame.Vector2(position)
+DEFAULT_MAP = {
+    "width": 10,
+    "height": 10,
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "animationSpeed": 1,
+    "tiles": [
+        [
+            [0] * 25 for _ in range(25)
+        ]
+    ],
+    "tileset": {
+        "0": {"type": "color", "value": "#333333", "collision": False, "name": "Open Space"},
+        "1": {"type": "color", "value": "#ffffff", "collision": True, "name": "Wall"}
+    }
+}
 
-    def draw(self, screen, x, y, width, height):
-        """Draw the tile on the screen."""
-        if self.tile_type == 'image' and self.image:
-            screen.blit(self.image, (x, y))
-        elif self.tile_type == 'color' and self.color:
-            pygame.draw.rect(screen, self.color, pygame.Rect(x, y, width, height))
-
-    def collides_at(self, x, y):
-        """Check if the given pixel coordinates collide with the tile."""
-        return self.collision and self.position.x <= x < self.position.x + self.size[0] and self.position.y <= y < self.position.y + self.size[1]
 
 class Map:
-    def __init__(self, filename):
+    def __init__(self, filename=None):
         self.tile_layers = []
         self.tileset = {}
         self.tile_width = 0
@@ -40,9 +37,17 @@ class Map:
         self.load()
 
     def load(self):
-        """Load the map from a JSON file."""
-        with open(self.filename, 'r') as f:
-            data = json.load(f)
+        """Load the map from a JSON file or use the default map if no file is provided."""
+        if self.filename:
+            try:
+                with open(self.filename, 'r') as f:
+                    data = json.load(f)
+            except FileNotFoundError:
+                print("File not found. Using default map.")
+                data = DEFAULT_MAP
+        else:
+            print("No file provided. Using default map.")
+            data = DEFAULT_MAP
 
         self.tile_width = data['tileWidth']
         self.tile_height = data['tileHeight']
@@ -52,10 +57,7 @@ class Map:
 
         # Load the tileset information
         for key, value in data['tileset'].items():
-            if value['type'] == 'image':
-                image = pygame.image.load(value['value'])
-            else:
-                image = None
+            image = pygame.image.load(value['value']) if value['type'] == 'image' else None
             color = value['value'] if value['type'] == 'color' else None
             tile = Tile(value['type'], image, color, value['collision'], value['name'])
             self.tileset[key] = tile
@@ -92,3 +94,4 @@ class Map:
             return tile if tile.collision else None
         except IndexError:
             return None
+            

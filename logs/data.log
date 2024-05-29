@@ -459,3 +459,665 @@ min       2.000000   NaN   NaN         17.0     1.0         NaN  ...       0.000
 max    9336.000000   NaN   NaN         17.0     1.0         NaN  ...      55.000000       150.0  8.420623e+06     316778.000000                      NaN                   NaN
 
 [8 rows x 49 columns]
+2024-05-29 10:11:42,014 - INFO - Loading data...
+2024-05-29 10:11:42,033 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:11:42,033 - INFO - Cleaning data...
+2024-05-29 10:12:28,253 - INFO - Loading data...
+2024-05-29 10:12:28,261 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:12:28,261 - INFO - Cleaning data...
+2024-05-29 10:12:28,271 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:12:28,271 - INFO - Sorting column 'Subscribers' numerically.
+2024-05-29 10:12:48,061 - INFO - Loading data...
+2024-05-29 10:12:48,069 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:12:48,070 - INFO - Cleaning data...
+2024-05-29 10:12:48,071 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:12:48,131 - INFO - Sorting column 'Subscribers' numerically.
+2024-05-29 10:13:03,653 - INFO - Loading data...
+2024-05-29 10:13:03,662 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:13:03,662 - INFO - Cleaning data...
+2024-05-29 10:13:03,663 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:13:03,697 - INFO - Sorting column 'subscribers' numerically.
+2024-05-29 10:13:03,698 - INFO - Separating data based on unique values in column 'Country'.
+2024-05-29 10:13:04,231 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,232 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,232 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,233 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,233 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,234 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,234 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,235 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,235 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,236 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,236 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,236 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,238 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,238 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,238 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,238 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,239 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,239 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,240 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,240 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,241 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,241 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,242 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,243 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,244 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,244 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,245 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,246 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,246 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,247 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,247 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,247 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,248 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,251 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,252 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,253 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,255 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,256 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,257 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,257 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,262 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,265 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,265 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,266 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,266 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,267 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,267 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,268 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,269 - ERROR - Failed to export data: Cannot save file into a non-existent directory: 'data\land'
+2024-05-29 10:13:04,287 - INFO -             rank   subscribers   video views        uploads  video_views_rank  ...    Population  Unemployment rate  Urban_population    Latitude   Longitude
+count  995.00000  9.950000e+02  9.950000e+02     995.000000      9.940000e+02  ...  8.720000e+02         872.000000      8.720000e+02  872.000000  872.000000
+mean   498.00000  2.298241e+07  1.103954e+10    9187.125628      5.542489e+05  ...  4.303873e+08           9.279278      2.242150e+08   26.632783  -14.128146
+std    287.37606  1.752611e+07  1.411084e+10   34151.352254      1.362782e+06  ...  4.727947e+08           4.888354      1.546874e+08   20.560533   84.760809
+min      1.00000  1.230000e+07  0.000000e+00       0.000000      1.000000e+00  ...  2.025060e+05           0.750000      3.558800e+04  -38.416097 -172.104629
+25%    249.50000  1.450000e+07  4.288145e+09     194.500000      3.230000e+02  ...  8.335541e+07           5.270000      5.590832e+07   20.593684  -95.712891
+50%    498.00000  1.770000e+07  7.760820e+09     729.000000      9.155000e+02  ...  3.282395e+08           9.365000      2.706630e+08   37.090240  -51.925280
+75%    746.50000  2.460000e+07  1.355470e+10    2667.500000      3.584500e+03  ...  3.282395e+08          14.700000      2.706630e+08   37.090240   78.962880
+max    995.00000  2.450000e+08  2.280000e+11  301308.000000      4.057944e+06  ...  1.397715e+09          14.720000      8.429340e+08   61.924110  138.252924
+
+[8 rows x 21 columns]
+2024-05-29 10:13:28,532 - INFO - Loading data...
+2024-05-29 10:13:28,541 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:13:28,541 - INFO - Cleaning data...
+2024-05-29 10:13:28,542 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:13:28,542 - INFO - Sorting column 'subscribers' numerically.
+2024-05-29 10:13:28,543 - INFO - Separating data based on unique values in column 'Country'.
+2024-05-29 10:13:28,861 - INFO - Data exported successfully to ./data/land/Afghanistan.xlsx.
+2024-05-29 10:13:28,883 - INFO - Data exported successfully to ./data/land/Andorra.xlsx.
+2024-05-29 10:13:28,902 - INFO - Data exported successfully to ./data/land/Argentina.xlsx.
+2024-05-29 10:13:28,945 - INFO - Data exported successfully to ./data/land/Australia.xlsx.
+2024-05-29 10:13:28,966 - INFO - Data exported successfully to ./data/land/Bangladesh.xlsx.
+2024-05-29 10:13:28,997 - INFO - Data exported successfully to ./data/land/Barbados.xlsx.
+2024-05-29 10:13:29,081 - INFO - Data exported successfully to ./data/land/Brazil.xlsx.
+2024-05-29 10:13:29,111 - INFO - Data exported successfully to ./data/land/Canada.xlsx.
+2024-05-29 10:13:29,141 - INFO - Data exported successfully to ./data/land/Chile.xlsx.
+2024-05-29 10:13:29,182 - INFO - Data exported successfully to ./data/land/China.xlsx.
+2024-05-29 10:13:29,225 - INFO - Data exported successfully to ./data/land/Colombia.xlsx.
+2024-05-29 10:13:29,248 - INFO - Data exported successfully to ./data/land/Cuba.xlsx.
+2024-05-29 10:13:29,290 - INFO - Data exported successfully to ./data/land/Ecuador.xlsx.
+2024-05-29 10:13:29,312 - INFO - Data exported successfully to ./data/land/Egypt.xlsx.
+2024-05-29 10:13:29,339 - INFO - Data exported successfully to ./data/land/El Salvador.xlsx.
+2024-05-29 10:13:29,366 - INFO - Data exported successfully to ./data/land/Finland.xlsx.
+2024-05-29 10:13:29,387 - INFO - Data exported successfully to ./data/land/France.xlsx.
+2024-05-29 10:13:29,427 - INFO - Data exported successfully to ./data/land/Germany.xlsx.
+2024-05-29 10:13:29,530 - INFO - Data exported successfully to ./data/land/India.xlsx.
+2024-05-29 10:13:29,584 - INFO - Data exported successfully to ./data/land/Indonesia.xlsx.
+2024-05-29 10:13:29,609 - INFO - Data exported successfully to ./data/land/Iraq.xlsx.
+2024-05-29 10:13:29,648 - INFO - Data exported successfully to ./data/land/Italy.xlsx.
+2024-05-29 10:13:29,696 - INFO - Data exported successfully to ./data/land/Japan.xlsx.
+2024-05-29 10:13:29,729 - INFO - Data exported successfully to ./data/land/Jordan.xlsx.
+2024-05-29 10:13:29,778 - INFO - Data exported successfully to ./data/land/Kuwait.xlsx.
+2024-05-29 10:13:29,812 - INFO - Data exported successfully to ./data/land/Latvia.xlsx.
+2024-05-29 10:13:29,889 - INFO - Data exported successfully to ./data/land/Malaysia.xlsx.
+2024-05-29 10:13:29,958 - INFO - Data exported successfully to ./data/land/Mexico.xlsx.
+2024-05-29 10:13:29,996 - INFO - Data exported successfully to ./data/land/Morocco.xlsx.
+2024-05-29 10:13:30,032 - INFO - Data exported successfully to ./data/land/Netherlands.xlsx.
+2024-05-29 10:13:30,064 - INFO - Data exported successfully to ./data/land/Pakistan.xlsx.
+2024-05-29 10:13:30,089 - INFO - Data exported successfully to ./data/land/Peru.xlsx.
+2024-05-29 10:13:30,157 - INFO - Data exported successfully to ./data/land/Philippines.xlsx.
+2024-05-29 10:13:30,200 - INFO - Data exported successfully to ./data/land/Russia.xlsx.
+2024-05-29 10:13:30,228 - INFO - Data exported successfully to ./data/land/Samoa.xlsx.
+2024-05-29 10:13:30,249 - INFO - Data exported successfully to ./data/land/Saudi Arabia.xlsx.
+2024-05-29 10:13:30,265 - INFO - Data exported successfully to ./data/land/Singapore.xlsx.
+2024-05-29 10:13:30,289 - INFO - Data exported successfully to ./data/land/South Korea.xlsx.
+2024-05-29 10:13:30,311 - INFO - Data exported successfully to ./data/land/Spain.xlsx.
+2024-05-29 10:13:30,352 - INFO - Data exported successfully to ./data/land/Sweden.xlsx.
+2024-05-29 10:13:30,382 - INFO - Data exported successfully to ./data/land/Switzerland.xlsx.
+2024-05-29 10:13:30,410 - INFO - Data exported successfully to ./data/land/Thailand.xlsx.
+2024-05-29 10:13:30,431 - INFO - Data exported successfully to ./data/land/Turkey.xlsx.
+2024-05-29 10:13:30,479 - INFO - Data exported successfully to ./data/land/Ukraine.xlsx.
+2024-05-29 10:13:30,505 - INFO - Data exported successfully to ./data/land/United Arab Emirates.xlsx.
+2024-05-29 10:13:30,549 - INFO - Data exported successfully to ./data/land/United Kingdom.xlsx.
+2024-05-29 10:13:30,669 - INFO - Data exported successfully to ./data/land/United States.xlsx.
+2024-05-29 10:13:30,700 - INFO - Data exported successfully to ./data/land/Venezuela.xlsx.
+2024-05-29 10:13:30,785 - INFO - Data exported successfully to ./data/land/Vietnam.xlsx.
+2024-05-29 10:13:30,822 - INFO -             rank   subscribers   video views        uploads  video_views_rank  ...    Population  Unemployment rate  Urban_population    Latitude   Longitude
+count  995.00000  9.950000e+02  9.950000e+02     995.000000      9.940000e+02  ...  8.720000e+02         872.000000      8.720000e+02  872.000000  872.000000
+mean   498.00000  2.298241e+07  1.103954e+10    9187.125628      5.542489e+05  ...  4.303873e+08           9.279278      2.242150e+08   26.632783  -14.128146
+std    287.37606  1.752611e+07  1.411084e+10   34151.352254      1.362782e+06  ...  4.727947e+08           4.888354      1.546874e+08   20.560533   84.760809
+min      1.00000  1.230000e+07  0.000000e+00       0.000000      1.000000e+00  ...  2.025060e+05           0.750000      3.558800e+04  -38.416097 -172.104629
+25%    249.50000  1.450000e+07  4.288145e+09     194.500000      3.230000e+02  ...  8.335541e+07           5.270000      5.590832e+07   20.593684  -95.712891
+50%    498.00000  1.770000e+07  7.760820e+09     729.000000      9.155000e+02  ...  3.282395e+08           9.365000      2.706630e+08   37.090240  -51.925280
+75%    746.50000  2.460000e+07  1.355470e+10    2667.500000      3.584500e+03  ...  3.282395e+08          14.700000      2.706630e+08   37.090240   78.962880
+max    995.00000  2.450000e+08  2.280000e+11  301308.000000      4.057944e+06  ...  1.397715e+09          14.720000      8.429340e+08   61.924110  138.252924
+
+[8 rows x 21 columns]
+2024-05-29 10:14:22,688 - INFO - Loading data...
+2024-05-29 10:14:22,697 - INFO - Initial dataset loaded with 995 records.
+2024-05-29 10:14:22,697 - INFO - Cleaning data...
+2024-05-29 10:14:22,698 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:14:22,699 - INFO - Sorting column 'subscribers' numerically.
+2024-05-29 10:14:22,699 - INFO - Separating data based on unique values in column 'Country'.
+2024-05-29 10:14:22,992 - INFO - Data exported successfully to ./data/land/Afghanistan.xlsx.
+2024-05-29 10:14:23,005 - INFO - Data exported successfully to ./data/land/Andorra.xlsx.
+2024-05-29 10:14:23,057 - INFO - Data exported successfully to ./data/land/Argentina.xlsx.
+2024-05-29 10:14:23,085 - INFO - Data exported successfully to ./data/land/Australia.xlsx.
+2024-05-29 10:14:23,099 - INFO - Data exported successfully to ./data/land/Bangladesh.xlsx.
+2024-05-29 10:14:23,109 - INFO - Data exported successfully to ./data/land/Barbados.xlsx.
+2024-05-29 10:14:23,166 - INFO - Data exported successfully to ./data/land/Brazil.xlsx.
+2024-05-29 10:14:23,194 - INFO - Data exported successfully to ./data/land/Canada.xlsx.
+2024-05-29 10:14:23,224 - INFO - Data exported successfully to ./data/land/Chile.xlsx.
+2024-05-29 10:14:23,239 - INFO - Data exported successfully to ./data/land/China.xlsx.
+2024-05-29 10:14:23,273 - INFO - Data exported successfully to ./data/land/Colombia.xlsx.
+2024-05-29 10:14:23,283 - INFO - Data exported successfully to ./data/land/Cuba.xlsx.
+2024-05-29 10:14:23,305 - INFO - Data exported successfully to ./data/land/Ecuador.xlsx.
+2024-05-29 10:14:23,330 - INFO - Data exported successfully to ./data/land/Egypt.xlsx.
+2024-05-29 10:14:23,345 - INFO - Data exported successfully to ./data/land/El Salvador.xlsx.
+2024-05-29 10:14:23,354 - INFO - Data exported successfully to ./data/land/Finland.xlsx.
+2024-05-29 10:14:23,393 - INFO - Data exported successfully to ./data/land/France.xlsx.
+2024-05-29 10:14:23,426 - INFO - Data exported successfully to ./data/land/Germany.xlsx.
+2024-05-29 10:14:23,566 - INFO - Data exported successfully to ./data/land/India.xlsx.
+2024-05-29 10:14:23,607 - INFO - Data exported successfully to ./data/land/Indonesia.xlsx.
+2024-05-29 10:14:23,649 - INFO - Data exported successfully to ./data/land/Iraq.xlsx.
+2024-05-29 10:14:23,677 - INFO - Data exported successfully to ./data/land/Italy.xlsx.
+2024-05-29 10:14:23,707 - INFO - Data exported successfully to ./data/land/Japan.xlsx.
+2024-05-29 10:14:23,753 - INFO - Data exported successfully to ./data/land/Jordan.xlsx.
+2024-05-29 10:14:23,766 - INFO - Data exported successfully to ./data/land/Kuwait.xlsx.
+2024-05-29 10:14:23,775 - INFO - Data exported successfully to ./data/land/Latvia.xlsx.
+2024-05-29 10:14:23,785 - INFO - Data exported successfully to ./data/land/Malaysia.xlsx.
+2024-05-29 10:14:23,828 - INFO - Data exported successfully to ./data/land/Mexico.xlsx.
+2024-05-29 10:14:23,840 - INFO - Data exported successfully to ./data/land/Morocco.xlsx.
+2024-05-29 10:14:23,870 - INFO - Data exported successfully to ./data/land/Netherlands.xlsx.
+2024-05-29 10:14:23,893 - INFO - Data exported successfully to ./data/land/Pakistan.xlsx.
+2024-05-29 10:14:23,906 - INFO - Data exported successfully to ./data/land/Peru.xlsx.
+2024-05-29 10:14:23,938 - INFO - Data exported successfully to ./data/land/Philippines.xlsx.
+2024-05-29 10:14:23,976 - INFO - Data exported successfully to ./data/land/Russia.xlsx.
+2024-05-29 10:14:23,987 - INFO - Data exported successfully to ./data/land/Samoa.xlsx.
+2024-05-29 10:14:24,013 - INFO - Data exported successfully to ./data/land/Saudi Arabia.xlsx.
+2024-05-29 10:14:24,038 - INFO - Data exported successfully to ./data/land/Singapore.xlsx.
+2024-05-29 10:14:24,063 - INFO - Data exported successfully to ./data/land/South Korea.xlsx.
+2024-05-29 10:14:24,110 - INFO - Data exported successfully to ./data/land/Spain.xlsx.
+2024-05-29 10:14:24,133 - INFO - Data exported successfully to ./data/land/Sweden.xlsx.
+2024-05-29 10:14:24,144 - INFO - Data exported successfully to ./data/land/Switzerland.xlsx.
+2024-05-29 10:14:24,165 - INFO - Data exported successfully to ./data/land/Thailand.xlsx.
+2024-05-29 10:14:24,181 - INFO - Data exported successfully to ./data/land/Turkey.xlsx.
+2024-05-29 10:14:24,209 - INFO - Data exported successfully to ./data/land/Ukraine.xlsx.
+2024-05-29 10:14:24,232 - INFO - Data exported successfully to ./data/land/United Arab Emirates.xlsx.
+2024-05-29 10:14:24,271 - INFO - Data exported successfully to ./data/land/United Kingdom.xlsx.
+2024-05-29 10:14:24,413 - INFO - Data exported successfully to ./data/land/United States.xlsx.
+2024-05-29 10:14:24,431 - INFO - Data exported successfully to ./data/land/Venezuela.xlsx.
+2024-05-29 10:14:24,467 - INFO - Data exported successfully to ./data/land/Vietnam.xlsx.
+2024-05-29 10:14:24,488 - INFO -             rank   subscribers   video views        uploads  video_views_rank  ...    Population  Unemployment rate  Urban_population    Latitude   Longitude
+count  995.00000  9.950000e+02  9.950000e+02     995.000000      9.940000e+02  ...  8.720000e+02         872.000000      8.720000e+02  872.000000  872.000000
+mean   498.00000  2.298241e+07  1.103954e+10    9187.125628      5.542489e+05  ...  4.303873e+08           9.279278      2.242150e+08   26.632783  -14.128146
+std    287.37606  1.752611e+07  1.411084e+10   34151.352254      1.362782e+06  ...  4.727947e+08           4.888354      1.546874e+08   20.560533   84.760809
+min      1.00000  1.230000e+07  0.000000e+00       0.000000      1.000000e+00  ...  2.025060e+05           0.750000      3.558800e+04  -38.416097 -172.104629
+25%    249.50000  1.450000e+07  4.288145e+09     194.500000      3.230000e+02  ...  8.335541e+07           5.270000      5.590832e+07   20.593684  -95.712891
+50%    498.00000  1.770000e+07  7.760820e+09     729.000000      9.155000e+02  ...  3.282395e+08           9.365000      2.706630e+08   37.090240  -51.925280
+75%    746.50000  2.460000e+07  1.355470e+10    2667.500000      3.584500e+03  ...  3.282395e+08          14.700000      2.706630e+08   37.090240   78.962880
+max    995.00000  2.450000e+08  2.280000e+11  301308.000000      4.057944e+06  ...  1.397715e+09          14.720000      8.429340e+08   61.924110  138.252924
+
+[8 rows x 21 columns]
+2024-05-29 10:14:55,416 - INFO - Loading data...
+2024-05-29 10:14:55,449 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 10:14:55,449 - INFO - Cleaning data...
+2024-05-29 10:14:55,452 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:14:55,452 - INFO - Sorting column 'subscribers' numerically.
+2024-05-29 10:15:37,676 - INFO - Loading data...
+2024-05-29 10:15:37,713 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 10:15:37,713 - INFO - Cleaning data...
+2024-05-29 10:15:37,715 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:15:37,715 - INFO - Sorting column 'Installs' numerically.
+2024-05-29 10:15:37,720 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 10:15:38,203 - INFO - Data exported successfully to ./data/kategori/1.9.xlsx.
+2024-05-29 10:15:38,240 - INFO - Data exported successfully to ./data/kategori/ART_AND_DESIGN.xlsx.
+2024-05-29 10:15:38,284 - INFO - Data exported successfully to ./data/kategori/AUTO_AND_VEHICLES.xlsx.
+2024-05-29 10:15:38,314 - INFO - Data exported successfully to ./data/kategori/BEAUTY.xlsx.
+2024-05-29 10:15:38,373 - INFO - Data exported successfully to ./data/kategori/BOOKS_AND_REFERENCE.xlsx.
+2024-05-29 10:15:38,503 - INFO - Data exported successfully to ./data/kategori/BUSINESS.xlsx.
+2024-05-29 10:15:38,538 - INFO - Data exported successfully to ./data/kategori/COMICS.xlsx.
+2024-05-29 10:15:38,634 - INFO - Data exported successfully to ./data/kategori/COMMUNICATION.xlsx.
+2024-05-29 10:15:38,703 - INFO - Data exported successfully to ./data/kategori/DATING.xlsx.
+2024-05-29 10:15:38,757 - INFO - Data exported successfully to ./data/kategori/EDUCATION.xlsx.
+2024-05-29 10:15:38,833 - INFO - Data exported successfully to ./data/kategori/ENTERTAINMENT.xlsx.
+2024-05-29 10:15:38,865 - INFO - Data exported successfully to ./data/kategori/EVENTS.xlsx.
+2024-05-29 10:15:39,280 - INFO - Data exported successfully to ./data/kategori/FAMILY.xlsx.
+2024-05-29 10:15:39,376 - INFO - Data exported successfully to ./data/kategori/FINANCE.xlsx.
+2024-05-29 10:15:39,417 - INFO - Data exported successfully to ./data/kategori/FOOD_AND_DRINK.xlsx.
+2024-05-29 10:15:39,660 - INFO - Data exported successfully to ./data/kategori/GAME.xlsx.
+2024-05-29 10:15:39,758 - INFO - Data exported successfully to ./data/kategori/HEALTH_AND_FITNESS.xlsx.
+2024-05-29 10:15:39,834 - INFO - Data exported successfully to ./data/kategori/HOUSE_AND_HOME.xlsx.
+2024-05-29 10:15:39,885 - INFO - Data exported successfully to ./data/kategori/LIBRARIES_AND_DEMO.xlsx.
+2024-05-29 10:15:40,025 - INFO - Data exported successfully to ./data/kategori/LIFESTYLE.xlsx.
+2024-05-29 10:15:40,074 - INFO - Data exported successfully to ./data/kategori/MAPS_AND_NAVIGATION.xlsx.
+2024-05-29 10:15:40,185 - INFO - Data exported successfully to ./data/kategori/MEDICAL.xlsx.
+2024-05-29 10:15:40,279 - INFO - Data exported successfully to ./data/kategori/NEWS_AND_MAGAZINES.xlsx.
+2024-05-29 10:15:40,311 - INFO - Data exported successfully to ./data/kategori/PARENTING.xlsx.
+2024-05-29 10:15:40,404 - INFO - Data exported successfully to ./data/kategori/PERSONALIZATION.xlsx.
+2024-05-29 10:15:40,486 - INFO - Data exported successfully to ./data/kategori/PHOTOGRAPHY.xlsx.
+2024-05-29 10:15:40,609 - INFO - Data exported successfully to ./data/kategori/PRODUCTIVITY.xlsx.
+2024-05-29 10:15:40,684 - INFO - Data exported successfully to ./data/kategori/SHOPPING.xlsx.
+2024-05-29 10:15:40,767 - INFO - Data exported successfully to ./data/kategori/SOCIAL.xlsx.
+2024-05-29 10:15:40,906 - INFO - Data exported successfully to ./data/kategori/SPORTS.xlsx.
+2024-05-29 10:15:41,100 - INFO - Data exported successfully to ./data/kategori/TOOLS.xlsx.
+2024-05-29 10:15:41,174 - INFO - Data exported successfully to ./data/kategori/TRAVEL_AND_LOCAL.xlsx.
+2024-05-29 10:15:41,244 - INFO - Data exported successfully to ./data/kategori/VIDEO_PLAYERS.xlsx.
+2024-05-29 10:15:41,286 - INFO - Data exported successfully to ./data/kategori/WEATHER.xlsx.
+2024-05-29 10:15:41,289 - INFO -             Rating
+count  9367.000000
+mean      4.193338
+std       0.537431
+min       1.000000
+25%       4.000000
+50%       4.300000
+75%       4.500000
+max      19.000000
+2024-05-29 10:16:44,110 - INFO - Loading data...
+2024-05-29 10:16:44,146 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 10:16:44,146 - INFO - Cleaning data...
+2024-05-29 10:16:44,149 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 10:16:44,149 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 10:16:44,159 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 10:16:44,491 - INFO - Data exported successfully to ./data/kategori/1.9.xlsx.
+2024-05-29 10:16:44,541 - INFO - Data exported successfully to ./data/kategori/ART_AND_DESIGN.xlsx.
+2024-05-29 10:16:44,597 - INFO - Data exported successfully to ./data/kategori/AUTO_AND_VEHICLES.xlsx.
+2024-05-29 10:16:44,639 - INFO - Data exported successfully to ./data/kategori/BEAUTY.xlsx.
+2024-05-29 10:16:44,732 - INFO - Data exported successfully to ./data/kategori/BOOKS_AND_REFERENCE.xlsx.
+2024-05-29 10:16:44,889 - INFO - Data exported successfully to ./data/kategori/BUSINESS.xlsx.
+2024-05-29 10:16:44,930 - INFO - Data exported successfully to ./data/kategori/COMICS.xlsx.
+2024-05-29 10:16:45,076 - INFO - Data exported successfully to ./data/kategori/COMMUNICATION.xlsx.
+2024-05-29 10:16:45,162 - INFO - Data exported successfully to ./data/kategori/DATING.xlsx.
+2024-05-29 10:16:45,209 - INFO - Data exported successfully to ./data/kategori/EDUCATION.xlsx.
+2024-05-29 10:16:45,305 - INFO - Data exported successfully to ./data/kategori/ENTERTAINMENT.xlsx.
+2024-05-29 10:16:45,335 - INFO - Data exported successfully to ./data/kategori/EVENTS.xlsx.
+2024-05-29 10:16:45,794 - INFO - Data exported successfully to ./data/kategori/FAMILY.xlsx.
+2024-05-29 10:16:45,893 - INFO - Data exported successfully to ./data/kategori/FINANCE.xlsx.
+2024-05-29 10:16:45,946 - INFO - Data exported successfully to ./data/kategori/FOOD_AND_DRINK.xlsx.
+2024-05-29 10:16:46,239 - INFO - Data exported successfully to ./data/kategori/GAME.xlsx.
+2024-05-29 10:16:46,350 - INFO - Data exported successfully to ./data/kategori/HEALTH_AND_FITNESS.xlsx.
+2024-05-29 10:16:46,436 - INFO - Data exported successfully to ./data/kategori/HOUSE_AND_HOME.xlsx.
+2024-05-29 10:16:46,481 - INFO - Data exported successfully to ./data/kategori/LIBRARIES_AND_DEMO.xlsx.
+2024-05-29 10:16:46,577 - INFO - Data exported successfully to ./data/kategori/LIFESTYLE.xlsx.
+2024-05-29 10:16:46,632 - INFO - Data exported successfully to ./data/kategori/MAPS_AND_NAVIGATION.xlsx.
+2024-05-29 10:16:46,748 - INFO - Data exported successfully to ./data/kategori/MEDICAL.xlsx.
+2024-05-29 10:16:46,846 - INFO - Data exported successfully to ./data/kategori/NEWS_AND_MAGAZINES.xlsx.
+2024-05-29 10:16:46,883 - INFO - Data exported successfully to ./data/kategori/PARENTING.xlsx.
+2024-05-29 10:16:46,989 - INFO - Data exported successfully to ./data/kategori/PERSONALIZATION.xlsx.
+2024-05-29 10:16:47,081 - INFO - Data exported successfully to ./data/kategori/PHOTOGRAPHY.xlsx.
+2024-05-29 10:16:47,271 - INFO - Data exported successfully to ./data/kategori/PRODUCTIVITY.xlsx.
+2024-05-29 10:16:47,339 - INFO - Data exported successfully to ./data/kategori/SHOPPING.xlsx.
+2024-05-29 10:16:47,430 - INFO - Data exported successfully to ./data/kategori/SOCIAL.xlsx.
+2024-05-29 10:16:47,548 - INFO - Data exported successfully to ./data/kategori/SPORTS.xlsx.
+2024-05-29 10:16:47,762 - INFO - Data exported successfully to ./data/kategori/TOOLS.xlsx.
+2024-05-29 10:16:47,833 - INFO - Data exported successfully to ./data/kategori/TRAVEL_AND_LOCAL.xlsx.
+2024-05-29 10:16:47,892 - INFO - Data exported successfully to ./data/kategori/VIDEO_PLAYERS.xlsx.
+2024-05-29 10:16:47,930 - INFO - Data exported successfully to ./data/kategori/WEATHER.xlsx.
+2024-05-29 10:16:47,933 - INFO -             Rating
+count  9367.000000
+mean      4.193338
+std       0.537431
+min       1.000000
+25%       4.000000
+50%       4.300000
+75%       4.500000
+max      19.000000
+2024-05-29 11:07:06,548 - INFO - Loading data...
+2024-05-29 11:07:06,578 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 11:07:06,578 - INFO - Cleaning data...
+2024-05-29 11:07:31,780 - INFO - Loading data...
+2024-05-29 11:07:31,825 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 11:07:31,825 - INFO - Cleaning data...
+2024-05-29 11:07:38,785 - INFO - Loading data...
+2024-05-29 11:07:38,815 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 11:07:38,815 - INFO - Cleaning data...
+2024-05-29 11:07:38,818 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 11:07:38,818 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 11:07:38,825 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 11:07:39,256 - INFO - Data exported successfully to ./data/kategori/1.9.xlsx.
+2024-05-29 11:07:39,295 - INFO - Data exported successfully to ./data/kategori/ART_AND_DESIGN.xlsx.
+2024-05-29 11:07:39,336 - INFO - Data exported successfully to ./data/kategori/AUTO_AND_VEHICLES.xlsx.
+2024-05-29 11:07:39,371 - INFO - Data exported successfully to ./data/kategori/BEAUTY.xlsx.
+2024-05-29 11:07:39,441 - INFO - Data exported successfully to ./data/kategori/BOOKS_AND_REFERENCE.xlsx.
+2024-05-29 11:07:39,567 - INFO - Data exported successfully to ./data/kategori/BUSINESS.xlsx.
+2024-05-29 11:07:39,606 - INFO - Data exported successfully to ./data/kategori/COMICS.xlsx.
+2024-05-29 11:07:39,708 - INFO - Data exported successfully to ./data/kategori/COMMUNICATION.xlsx.
+2024-05-29 11:07:39,817 - INFO - Data exported successfully to ./data/kategori/DATING.xlsx.
+2024-05-29 11:07:39,891 - INFO - Data exported successfully to ./data/kategori/EDUCATION.xlsx.
+2024-05-29 11:07:39,969 - INFO - Data exported successfully to ./data/kategori/ENTERTAINMENT.xlsx.
+2024-05-29 11:07:40,017 - INFO - Data exported successfully to ./data/kategori/EVENTS.xlsx.
+2024-05-29 11:07:40,445 - INFO - Data exported successfully to ./data/kategori/FAMILY.xlsx.
+2024-05-29 11:07:40,540 - INFO - Data exported successfully to ./data/kategori/FINANCE.xlsx.
+2024-05-29 11:07:40,622 - INFO - Data exported successfully to ./data/kategori/FOOD_AND_DRINK.xlsx.
+2024-05-29 11:07:40,892 - INFO - Data exported successfully to ./data/kategori/GAME.xlsx.
+2024-05-29 11:07:40,982 - INFO - Data exported successfully to ./data/kategori/HEALTH_AND_FITNESS.xlsx.
+2024-05-29 11:07:41,071 - INFO - Data exported successfully to ./data/kategori/HOUSE_AND_HOME.xlsx.
+2024-05-29 11:07:41,112 - INFO - Data exported successfully to ./data/kategori/LIBRARIES_AND_DEMO.xlsx.
+2024-05-29 11:07:41,246 - INFO - Data exported successfully to ./data/kategori/LIFESTYLE.xlsx.
+2024-05-29 11:07:41,295 - INFO - Data exported successfully to ./data/kategori/MAPS_AND_NAVIGATION.xlsx.
+2024-05-29 11:07:41,434 - INFO - Data exported successfully to ./data/kategori/MEDICAL.xlsx.
+2024-05-29 11:07:41,542 - INFO - Data exported successfully to ./data/kategori/NEWS_AND_MAGAZINES.xlsx.
+2024-05-29 11:07:41,574 - INFO - Data exported successfully to ./data/kategori/PARENTING.xlsx.
+2024-05-29 11:07:41,678 - INFO - Data exported successfully to ./data/kategori/PERSONALIZATION.xlsx.
+2024-05-29 11:07:41,792 - INFO - Data exported successfully to ./data/kategori/PHOTOGRAPHY.xlsx.
+2024-05-29 11:07:41,909 - INFO - Data exported successfully to ./data/kategori/PRODUCTIVITY.xlsx.
+2024-05-29 11:07:41,976 - INFO - Data exported successfully to ./data/kategori/SHOPPING.xlsx.
+2024-05-29 11:07:42,053 - INFO - Data exported successfully to ./data/kategori/SOCIAL.xlsx.
+2024-05-29 11:07:42,160 - INFO - Data exported successfully to ./data/kategori/SPORTS.xlsx.
+2024-05-29 11:07:42,339 - INFO - Data exported successfully to ./data/kategori/TOOLS.xlsx.
+2024-05-29 11:07:42,422 - INFO - Data exported successfully to ./data/kategori/TRAVEL_AND_LOCAL.xlsx.
+2024-05-29 11:07:42,511 - INFO - Data exported successfully to ./data/kategori/VIDEO_PLAYERS.xlsx.
+2024-05-29 11:07:42,552 - INFO - Data exported successfully to ./data/kategori/WEATHER.xlsx.
+2024-05-29 11:07:42,555 - INFO -             Rating
+count  9367.000000
+mean      4.193338
+std       0.537431
+min       1.000000
+25%       4.000000
+50%       4.300000
+75%       4.500000
+max      19.000000
+2024-05-29 11:07:50,857 - INFO - Loading data...
+2024-05-29 11:07:50,889 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 11:07:50,889 - INFO - Cleaning data...
+2024-05-29 11:07:50,892 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 11:07:50,892 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 11:07:50,899 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 11:07:51,153 - INFO - Data exported successfully to ./data/kategori/1.9.xlsx.
+2024-05-29 11:07:51,194 - INFO - Data exported successfully to ./data/kategori/ART_AND_DESIGN.xlsx.
+2024-05-29 11:07:51,244 - INFO - Data exported successfully to ./data/kategori/AUTO_AND_VEHICLES.xlsx.
+2024-05-29 11:07:51,280 - INFO - Data exported successfully to ./data/kategori/BEAUTY.xlsx.
+2024-05-29 11:07:51,355 - INFO - Data exported successfully to ./data/kategori/BOOKS_AND_REFERENCE.xlsx.
+2024-05-29 11:07:51,486 - INFO - Data exported successfully to ./data/kategori/BUSINESS.xlsx.
+2024-05-29 11:07:51,518 - INFO - Data exported successfully to ./data/kategori/COMICS.xlsx.
+2024-05-29 11:07:51,618 - INFO - Data exported successfully to ./data/kategori/COMMUNICATION.xlsx.
+2024-05-29 11:07:51,709 - INFO - Data exported successfully to ./data/kategori/DATING.xlsx.
+2024-05-29 11:07:51,778 - INFO - Data exported successfully to ./data/kategori/EDUCATION.xlsx.
+2024-05-29 11:07:51,859 - INFO - Data exported successfully to ./data/kategori/ENTERTAINMENT.xlsx.
+2024-05-29 11:07:51,918 - INFO - Data exported successfully to ./data/kategori/EVENTS.xlsx.
+2024-05-29 11:07:52,349 - INFO - Data exported successfully to ./data/kategori/FAMILY.xlsx.
+2024-05-29 11:07:52,435 - INFO - Data exported successfully to ./data/kategori/FINANCE.xlsx.
+2024-05-29 11:07:52,509 - INFO - Data exported successfully to ./data/kategori/FOOD_AND_DRINK.xlsx.
+2024-05-29 11:07:52,784 - INFO - Data exported successfully to ./data/kategori/GAME.xlsx.
+2024-05-29 11:07:52,893 - INFO - Data exported successfully to ./data/kategori/HEALTH_AND_FITNESS.xlsx.
+2024-05-29 11:07:52,963 - INFO - Data exported successfully to ./data/kategori/HOUSE_AND_HOME.xlsx.
+2024-05-29 11:07:53,031 - INFO - Data exported successfully to ./data/kategori/LIBRARIES_AND_DEMO.xlsx.
+2024-05-29 11:07:53,181 - INFO - Data exported successfully to ./data/kategori/LIFESTYLE.xlsx.
+2024-05-29 11:07:53,248 - INFO - Data exported successfully to ./data/kategori/MAPS_AND_NAVIGATION.xlsx.
+2024-05-29 11:07:53,396 - INFO - Data exported successfully to ./data/kategori/MEDICAL.xlsx.
+2024-05-29 11:07:53,537 - INFO - Data exported successfully to ./data/kategori/NEWS_AND_MAGAZINES.xlsx.
+2024-05-29 11:07:53,613 - INFO - Data exported successfully to ./data/kategori/PARENTING.xlsx.
+2024-05-29 11:07:53,736 - INFO - Data exported successfully to ./data/kategori/PERSONALIZATION.xlsx.
+2024-05-29 11:07:53,832 - INFO - Data exported successfully to ./data/kategori/PHOTOGRAPHY.xlsx.
+2024-05-29 11:07:53,957 - INFO - Data exported successfully to ./data/kategori/PRODUCTIVITY.xlsx.
+2024-05-29 11:07:54,032 - INFO - Data exported successfully to ./data/kategori/SHOPPING.xlsx.
+2024-05-29 11:07:54,117 - INFO - Data exported successfully to ./data/kategori/SOCIAL.xlsx.
+2024-05-29 11:07:54,237 - INFO - Data exported successfully to ./data/kategori/SPORTS.xlsx.
+2024-05-29 11:07:54,457 - INFO - Data exported successfully to ./data/kategori/TOOLS.xlsx.
+2024-05-29 11:07:54,565 - INFO - Data exported successfully to ./data/kategori/TRAVEL_AND_LOCAL.xlsx.
+2024-05-29 11:07:54,673 - INFO - Data exported successfully to ./data/kategori/VIDEO_PLAYERS.xlsx.
+2024-05-29 11:07:54,762 - INFO - Data exported successfully to ./data/kategori/WEATHER.xlsx.
+2024-05-29 13:10:25,042 - INFO - Loading data...
+2024-05-29 13:10:25,130 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:10:25,131 - INFO - Cleaning data...
+2024-05-29 13:10:25,136 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:10:25,137 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:10:25,150 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 13:10:48,714 - INFO - Loading data...
+2024-05-29 13:10:48,762 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:10:48,762 - INFO - Cleaning data...
+2024-05-29 13:10:48,765 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:10:48,766 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:10:48,776 - INFO - Separating data based on unique values in column 'Category'.
+2024-05-29 13:11:15,889 - INFO - Loading data...
+2024-05-29 13:11:15,942 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:11:15,942 - INFO - Cleaning data...
+2024-05-29 13:11:15,946 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:11:15,946 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:16:34,096 - INFO - Loading data...
+2024-05-29 13:16:34,154 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:16:34,154 - INFO - Cleaning data...
+2024-05-29 13:16:34,158 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:16:34,159 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:17:44,660 - INFO - Loading data...
+2024-05-29 13:17:44,710 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:17:44,710 - INFO - Cleaning data...
+2024-05-29 13:17:44,715 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:17:44,715 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:21:49,579 - INFO - Loading data...
+2024-05-29 13:21:49,641 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:21:49,641 - INFO - Cleaning data...
+2024-05-29 13:21:49,647 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:21:49,647 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:22:24,718 - INFO - Loading data...
+2024-05-29 13:22:24,771 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:22:24,771 - INFO - Cleaning data...
+2024-05-29 13:22:24,776 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:22:24,776 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:22:40,700 - INFO - Loading data...
+2024-05-29 13:22:40,788 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:22:40,788 - INFO - Cleaning data...
+2024-05-29 13:22:40,792 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:22:40,793 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:22:58,196 - INFO - Loading data...
+2024-05-29 13:22:58,268 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:22:58,268 - INFO - Cleaning data...
+2024-05-29 13:22:58,273 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:22:58,273 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 13:23:42,842 - INFO - Loading data...
+2024-05-29 13:23:42,904 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 13:23:42,904 - INFO - Cleaning data...
+2024-05-29 13:23:42,910 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 13:23:42,910 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:17:44,652 - INFO - Loading data...
+2024-05-29 14:17:44,709 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:17:44,709 - INFO - Cleaning data...
+2024-05-29 14:17:44,713 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:17:44,714 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:18:29,845 - INFO - Loading data...
+2024-05-29 14:18:29,898 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:18:29,898 - INFO - Cleaning data...
+2024-05-29 14:18:29,904 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:18:29,906 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:20:45,810 - INFO - Loading data...
+2024-05-29 14:20:45,862 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:20:45,863 - INFO - Cleaning data...
+2024-05-29 14:20:45,868 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:20:45,868 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:20:45,947 - INFO - Category: FAMILY
+2024-05-29 14:20:45,947 - INFO - Average rating: nan
+2024-05-29 14:20:45,947 - INFO - Average installs: 5201959.18
+2024-05-29 14:20:45,948 - INFO - Top 3 most installed apps: [{'rating': 4.3, 'installs': 1000000000, 'name': 'Google Play Games'}, {'rating': 4.3, 'installs': 500000000, 'name': 'Pou'}, {'rating': 4.5, 'installs': 500000000, 'name': 'My Talking Tom'}]
+2024-05-29 14:20:46,027 - INFO - Category: GAME
+2024-05-29 14:20:46,028 - INFO - Average rating: nan
+2024-05-29 14:20:46,028 - INFO - Average installs: 30669601.76
+2024-05-29 14:20:46,028 - INFO - Top 3 most installed apps: [{'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}]
+2024-05-29 14:20:46,055 - INFO - Category: TOOLS
+2024-05-29 14:20:46,055 - INFO - Average rating: nan
+2024-05-29 14:20:46,055 - INFO - Average installs: 13585731.81
+2024-05-29 14:20:46,055 - INFO - Top 3 most installed apps: [{'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.2, 'installs': 500000000, 'name': 'Gboard - the Google Keyboard'}]
+2024-05-29 14:21:41,417 - INFO - Loading data...
+2024-05-29 14:21:41,469 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:21:41,470 - INFO - Cleaning data...
+2024-05-29 14:21:41,474 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:21:41,475 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:21:41,538 - INFO - Category: FAMILY
+2024-05-29 14:21:41,538 - INFO - Average rating: nan
+2024-05-29 14:21:41,538 - INFO - Average installs: 5201959.18
+2024-05-29 14:21:41,538 - INFO - Top 3 most installed apps: [{'rating': 4.3, 'installs': 1000000000, 'name': 'Google Play Games'}, {'rating': 4.3, 'installs': 500000000, 'name': 'Pou'}, {'rating': 4.5, 'installs': 500000000, 'name': 'My Talking Tom'}]
+2024-05-29 14:21:41,582 - INFO - Category: GAME
+2024-05-29 14:21:41,582 - INFO - Average rating: nan
+2024-05-29 14:21:41,582 - INFO - Average installs: 30669601.76
+2024-05-29 14:21:41,582 - INFO - Top 3 most installed apps: [{'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}]
+2024-05-29 14:21:41,645 - INFO - Category: TOOLS
+2024-05-29 14:21:41,645 - INFO - Average rating: nan
+2024-05-29 14:21:41,645 - INFO - Average installs: 13585731.81
+2024-05-29 14:21:41,645 - INFO - Top 3 most installed apps: [{'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.2, 'installs': 500000000, 'name': 'Gboard - the Google Keyboard'}]
+2024-05-29 14:21:51,726 - INFO - Loading data...
+2024-05-29 14:21:51,785 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:21:51,785 - INFO - Cleaning data...
+2024-05-29 14:21:51,791 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:21:51,791 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:21:51,863 - INFO - Category: FAMILY
+2024-05-29 14:21:51,864 - INFO - Average rating: nan
+2024-05-29 14:21:51,864 - INFO - Average installs: 5201959.18
+2024-05-29 14:21:51,864 - INFO - Top 3 most installed apps: [{'rating': 4.3, 'installs': 1000000000, 'name': 'Google Play Games'}, {'rating': 4.3, 'installs': 500000000, 'name': 'Pou'}, {'rating': 4.5, 'installs': 500000000, 'name': 'My Talking Tom'}]
+2024-05-29 14:21:51,914 - INFO - Category: GAME
+2024-05-29 14:21:51,914 - INFO - Average rating: nan
+2024-05-29 14:21:51,914 - INFO - Average installs: 30669601.76
+2024-05-29 14:21:51,914 - INFO - Top 3 most installed apps: [{'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}, {'rating': 4.5, 'installs': 1000000000, 'name': 'Subway Surfers'}]
+2024-05-29 14:21:51,951 - INFO - Category: TOOLS
+2024-05-29 14:21:51,951 - INFO - Average rating: nan
+2024-05-29 14:21:51,951 - INFO - Average installs: 13585731.81
+2024-05-29 14:21:51,951 - INFO - Top 3 most installed apps: [{'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.4, 'installs': 1000000000, 'name': 'Google'}, {'rating': 4.2, 'installs': 500000000, 'name': 'Gboard - the Google Keyboard'}]
+2024-05-29 14:23:57,147 - INFO - Loading data...
+2024-05-29 14:23:57,198 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:23:57,198 - INFO - Cleaning data...
+2024-05-29 14:23:57,203 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:23:57,203 - INFO - Sorting column 'Reviews' numerically.
+2024-05-29 14:23:57,299 - INFO - Category: FAMILY
+2024-05-29 14:23:57,300 - INFO - Average rating: nan
+2024-05-29 14:23:57,300 - INFO - Average installs: 5201959.18
+2024-05-29 14:23:57,300 - INFO - Top 3 most installed apps: [{'name': 5856, 'rating': 4.3, 'installs': 1000000000}, {'name': 3879, 'rating': 4.3, 'installs': 500000000}, {'name': 3888, 'rating': 4.5, 'installs': 500000000}]
+2024-05-29 14:23:57,362 - INFO - Category: GAME
+2024-05-29 14:23:57,362 - INFO - Average rating: nan
+2024-05-29 14:23:57,362 - INFO - Average installs: 30669601.76
+2024-05-29 14:23:57,363 - INFO - Top 3 most installed apps: [{'name': 3896, 'rating': 4.5, 'installs': 1000000000}, {'name': 1654, 'rating': 4.5, 'installs': 1000000000}, {'name': 1700, 'rating': 4.5, 'installs': 1000000000}]
+2024-05-29 14:23:57,416 - INFO - Category: TOOLS
+2024-05-29 14:23:57,417 - INFO - Average rating: nan
+2024-05-29 14:23:57,417 - INFO - Average installs: 13585731.81
+2024-05-29 14:23:57,417 - INFO - Top 3 most installed apps: [{'name': 4150, 'rating': 4.4, 'installs': 1000000000}, {'name': 3234, 'rating': 4.4, 'installs': 1000000000}, {'name': 4147, 'rating': 4.2, 'installs': 500000000}]
+2024-05-29 14:25:36,884 - INFO - Loading data...
+2024-05-29 14:25:36,983 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:25:36,983 - INFO - Cleaning data...
+2024-05-29 14:25:36,992 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:25:37,070 - INFO - Category: FAMILY
+2024-05-29 14:25:37,071 - INFO - Average rating: 4.06
+2024-05-29 14:25:37,071 - INFO - Average installs: 5201959.18
+2024-05-29 14:25:37,083 - INFO - Top 3 most installed apps:
+                    App  Rating      Installs
+5856  Google Play Games     4.3  1.000000e+09
+3994   Candy Crush Saga     4.4  5.000000e+08
+3888     My Talking Tom     4.5  5.000000e+08
+2024-05-29 14:25:37,097 - INFO - Category: GAME
+2024-05-29 14:25:37,097 - INFO - Average rating: 4.23
+2024-05-29 14:25:37,098 - INFO - Average installs: 30669601.76
+2024-05-29 14:25:37,108 - INFO - Top 3 most installed apps:
+                 App  Rating      Installs
+1917  Subway Surfers     4.5  1.000000e+09
+1872  Subway Surfers     4.5  1.000000e+09
+1750  Subway Surfers     4.5  1.000000e+09
+2024-05-29 14:25:37,124 - INFO - Category: TOOLS
+2024-05-29 14:25:37,125 - INFO - Average rating: 3.91
+2024-05-29 14:25:37,125 - INFO - Average installs: 13585731.81
+2024-05-29 14:25:37,139 - INFO - Top 3 most installed apps:
+                                          App  Rating      Installs
+3234                                   Google     4.4  1.000000e+09
+4150                                   Google     4.4  1.000000e+09
+4005  Clean Master- Space Cleaner & Antivirus     4.7  5.000000e+08
+2024-05-29 14:27:33,400 - INFO - Loading data...
+2024-05-29 14:27:33,497 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:27:33,497 - INFO - Cleaning data...
+2024-05-29 14:27:33,503 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:27:33,595 - INFO - Category: FAMILY
+2024-05-29 14:27:33,595 - INFO - Average rating: 4.05
+2024-05-29 14:27:33,596 - INFO - Average installs: 5168138.19
+2024-05-29 14:27:33,607 - INFO - Top 3 most installed apps:
+                    App  Rating      Installs
+5856  Google Play Games     4.3  1.000000e+09
+3994   Candy Crush Saga     4.4  5.000000e+08
+3888     My Talking Tom     4.5  5.000000e+08
+2024-05-29 14:27:33,621 - INFO - Category: GAME
+2024-05-29 14:27:33,621 - INFO - Average rating: 4.23
+2024-05-29 14:27:33,621 - INFO - Average installs: 28139183.24
+2024-05-29 14:27:33,639 - INFO - Top 3 most installed apps:
+                 App  Rating      Installs
+1872  Subway Surfers     4.5  1.000000e+09
+1750  Subway Surfers     4.5  1.000000e+09
+1700  Subway Surfers     4.5  1.000000e+09
+2024-05-29 14:27:33,662 - INFO - Category: TOOLS
+2024-05-29 14:27:33,662 - INFO - Average rating: 3.91
+2024-05-29 14:27:33,663 - INFO - Average installs: 13585731.81
+2024-05-29 14:27:33,672 - INFO - Top 3 most installed apps:
+                                          App  Rating      Installs
+3234                                   Google     4.4  1.000000e+09
+4150                                   Google     4.4  1.000000e+09
+4005  Clean Master- Space Cleaner & Antivirus     4.7  5.000000e+08
+2024-05-29 14:28:51,758 - INFO - Loading data...
+2024-05-29 14:28:51,857 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:28:51,858 - INFO - Cleaning data...
+2024-05-29 14:28:51,868 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:28:51,929 - INFO - Category: FAMILY
+2024-05-29 14:28:51,929 - INFO - Average rating: 4.05
+2024-05-29 14:28:51,930 - INFO - Average installs: 5168138.19
+2024-05-29 14:28:51,958 - INFO - Top 3 most installed apps:
+                    App  Rating      Installs
+5856  Google Play Games     4.3  1.000000e+09
+3994   Candy Crush Saga     4.4  5.000000e+08
+3888     My Talking Tom     4.5  5.000000e+08
+2024-05-29 14:28:51,985 - INFO - Category: GAME
+2024-05-29 14:28:51,985 - INFO - Average rating: 4.23
+2024-05-29 14:28:51,986 - INFO - Average installs: 28139183.24
+2024-05-29 14:28:51,998 - INFO - Top 3 most installed apps:
+                 App  Rating      Installs
+1917  Subway Surfers     4.5  1.000000e+09
+1750  Subway Surfers     4.5  1.000000e+09
+1700  Subway Surfers     4.5  1.000000e+09
+2024-05-29 14:28:52,026 - INFO - Category: TOOLS
+2024-05-29 14:28:52,027 - INFO - Average rating: 3.91
+2024-05-29 14:28:52,027 - INFO - Average installs: 13585731.81
+2024-05-29 14:28:52,042 - INFO - Top 3 most installed apps:
+                                          App  Rating      Installs
+3234                                   Google     4.4  1.000000e+09
+4150                                   Google     4.4  1.000000e+09
+4005  Clean Master- Space Cleaner & Antivirus     4.7  5.000000e+08
+2024-05-29 14:31:29,228 - INFO - Loading data...
+2024-05-29 14:31:29,328 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:31:29,328 - INFO - Cleaning data...
+2024-05-29 14:31:29,335 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:31:44,400 - INFO - Loading data...
+2024-05-29 14:31:44,503 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:31:44,503 - INFO - Cleaning data...
+2024-05-29 14:31:44,510 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:32:58,439 - INFO - Loading data...
+2024-05-29 14:32:58,576 - INFO - Initial dataset loaded with 10841 records.
+2024-05-29 14:32:58,577 - INFO - Cleaning data...
+2024-05-29 14:32:58,586 - INFO - Removed 0 rows with NaN values in critical columns.
+2024-05-29 14:32:58,713 - INFO - Category: FAMILY
+2024-05-29 14:32:58,713 - INFO - Average rating: 4.04
+2024-05-29 14:32:58,713 - INFO - Average installs: 2419585.52
+2024-05-29 14:32:58,739 - INFO - Top 3 most installed apps:
+                     Rating     Installs
+App                                     
+Hay Day                 4.5  100000000.0
+Talking Tom Cat 2       4.3  100000000.0
+Bubble Witch 2 Saga     4.3  100000000.0
+2024-05-29 14:32:58,770 - INFO - Category: GAME
+2024-05-29 14:32:58,771 - INFO - Average rating: 4.19
+2024-05-29 14:32:58,771 - INFO - Average installs: 14476956.59
+2024-05-29 14:32:58,787 - INFO - Top 3 most installed apps:
+                  Rating      Installs
+App                                   
+Subway Surfers       4.5  1.000000e+09
+Candy Crush Saga     4.4  5.000000e+08
+My Talking Tom       4.5  5.000000e+08
+2024-05-29 14:32:58,819 - INFO - Category: TOOLS
+2024-05-29 14:32:58,819 - INFO - Average rating: 3.90
+2024-05-29 14:32:58,820 - INFO - Average installs: 9675661.32
+2024-05-29 14:32:58,854 - INFO - Top 3 most installed apps:
+                                                    Rating      Installs
+App                                                                     
+Google                                                 4.4  1.000000e+09
+Clean Master- Space Cleaner & Antivirus                4.7  5.000000e+08
+Security Master - Antivirus, VPN, AppLock, Booster     4.7  5.000000e+08
